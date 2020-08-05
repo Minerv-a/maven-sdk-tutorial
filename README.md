@@ -1,5 +1,13 @@
 # Alfresco AIO Project - SDK 3
 
+
+Prove di sviluppo su Alfresco SDK 3.1.0 collegate al tutorial su Alfresco Maven SDK di EcmArchitect.com.
+
+Si veda:
+https://ecmarchitect.com/alfresco-developer-series-tutorials/maven-sdk/tutorial/tutorial.html
+
+---
+
 This is an All-In-One (AIO) project for Alfresco SDK 3.0. 
 
 Run with `mvn clean install -DskipTests=true alfresco:run` or `./run.sh` and verify that it 
