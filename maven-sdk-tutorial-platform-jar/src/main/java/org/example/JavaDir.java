@@ -30,11 +30,11 @@ public class JavaDir extends DeclarativeWebScript
 		String verboseArg = req.getParameter("verbose");
 		Boolean verbose = Boolean.parseBoolean(verboseArg);
 		
-		Map<String, String> templateArgs =
-				req.getServiceMatch().getTemplateVars();
+		Map<String, String> templateArgs = req.getServiceMatch().getTemplateVars();
 		String folderPath = templateArgs.get("folderpath");
 		
-		if (folderPath.equals("Company Home")){
+//		if (folderPath.equals("Company Home")){
+		if (folderPath.equals("Home page dell'azienda")){	// localizzazione italiana di "Company Home"
 			
 			folder = repository.getCompanyHome();	
 						

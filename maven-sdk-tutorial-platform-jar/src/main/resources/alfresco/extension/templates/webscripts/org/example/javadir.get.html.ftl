@@ -3,7 +3,7 @@
   <title>Folder ${folder.displayPath}/${folder.name}</title>
   </head>
  <body>
-   <p>Alfresco ${server.edition} Edition v${server.version} : dir</p>
+   <p>Alfresco ${server.edition} Edition v${server.version} : javadir</p>
   <p>Contents of folder ${folder.displayPath}/${folder.name}</p>
   <table>
    <#list folder.children as child>
